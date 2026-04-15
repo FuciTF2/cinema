@@ -1,0 +1,129 @@
+#container {
+    background-color: var(--color-A);
+    width: 1036px;
+    min-height: calc(100% - 2rem);
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1ft 1fr 1ft;
+    background-color: rgb(80, 80, 80);
+}
+
+body {
+    background-color: var(--color-D);
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    background-color: rgb(48, 48, 48);
+}
+
+button {
+    background-color: rgb(80, 80, 80);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.kontakt-maptext {
+    display: grid;
+    align-items: left ;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    font-size: larger;
+    background-color:rgb(126, 24, 24) ;
+    font-size: larger;
+}
+
+.text {
+    background-color: whitesmoke;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    margin-top: 1rem;
+    background-color: rgb(126, 24, 24) ;
+    color: whitesmoke;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1rem;
+    background-color: rgb(126, 24, 24);
+    color: rgb(255, 255, 255);
+    border: 50px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin: 0;
+    margin-bottom: .5em;
+    font-variant: small-caps;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    color: black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1em;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(255, 251, 0) ;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke ;
+}
+
+tr :hover {
+    background-color:rgb(126, 24, 24) ;
+}
+
+.filminfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    background-color: whitesmoke;
+}
+
+.columnInfo {
+    align-items: center;
+    width: 48%;
+    padding: 0,5em;
+    width: 100%;
+}
+
+.filminfo2 {
+    background-color: whitesmoke;
+}
